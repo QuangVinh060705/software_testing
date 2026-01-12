@@ -1,77 +1,79 @@
-# Software Testing
+# Software Testing Practice (JUnit 5)
 
-## Giới thiệu
+Dự án thực hành **kiểm thử phần mềm (Software Testing)**, tập trung vào đánh giá giao diện người dùng và viết **Unit Test với JUnit 5** trong Java.
 
-Dự án ghi lại quá trình học tập và thực hành các nội dung liên quan đến kiểm thử phần mềm.
+Mục tiêu của dự án là rèn luyện tư duy kiểm thử, kỹ năng viết test case, sử dụng Maven và quản lý mã nguồn bằng Git/GitHub.
 
-Nội dung tập trung vào đánh giá giao diện người dùng và kiểm thử đơn vị trong ứng dụng Java.
+---
 
-Mục tiêu là rèn luyện tư duy kiểm thử, kỹ năng viết ca kiểm thử và quản lý mã nguồn trong quá trình phát triển phần mềm.
+## 🎯 Mục tiêu dự án
+- Hiểu và áp dụng các nguyên tắc kiểm thử phần mềm
+- Thực hành đánh giá giao diện người dùng (UI Testing)
+- Viết Unit Test bằng JUnit 5 cho chương trình Java
+- Làm quen với Maven và quy trình làm việc với GitHub
 
-## Ngày 05.01 – Đánh giá giao diện người dùng
+---
 
-Thực hành đánh giá giao diện thông qua trang https://cantunsee.space/  
-nhằm rèn luyện khả năng quan sát và nhận diện giao diện hợp lý, dễ sử dụng và có tính thẩm mỹ.
+## 📌 Nội dung chính
 
-Trang ứng dụng cung cấp các bài tập so sánh hai phương án giao diện khác nhau, yêu cầu người học lựa chọn giao diện phù hợp hơn.
+### 1️⃣ Đánh giá giao diện người dùng  
+**📅 Ngày thực hiện: 05/01**
 
-Nội dung đánh giá tập trung vào:
+- Thực hành đánh giá giao diện người dùng thông qua website: https://cantunsee.space/
+- Phân tích các yếu tố về:
+  - Bố cục giao diện
+  - Màu sắc
+  - Khả năng sử dụng (usability)
+- Nhận diện các lỗi thiết kế UI thường gặp
+- So sánh giao diện tốt và chưa tốt theo góc nhìn người dùng thực tế
 
-- Căn chỉnh bố cục giữa các thành phần
-- Khoảng cách và sự cân đối trong giao diện
-- Mức độ rõ ràng, dễ nhìn và dễ sử dụng
-- Các bài tập có tính sát thực tế, giúp nâng cao khả năng đánh giá giao diện trong quá trình phát triển phần mềm
-- Ảnh kết quả làm bài được lưu lại để làm minh chứng cho quá trình học tập
+---
 
-## Ngày 08.01 – Kiểm thử đơn vị với JUnit 5
+### 2️⃣ Thực hành Unit Test với JUnit 5  
+**📅 Ngày thực hiện: 08/01**
 
-Thực hiện dự án nhằm rèn luyện kỹ năng viết kiểm thử đơn vị thông qua bài toán phân tích điểm số học sinh.
+- Xây dựng chương trình Java phân tích điểm số học sinh
+- Lớp chính: `StudentAnalyzer`
+  - Đếm số học sinh giỏi (điểm ≥ 8.0)
+  - Tính điểm trung bình hợp lệ
+  - Loại bỏ dữ liệu không hợp lệ (điểm < 0 hoặc > 10)
+- Viết Unit Test cho:
+  - Trường hợp dữ liệu hợp lệ
+  - Trường hợp biên
+  - Trường hợp dữ liệu sai
+- Sử dụng JUnit 5 để kiểm thử tự động
+- Quản lý công việc bằng GitHub Issues
+- Commit code gắn với từng issue cụ thể
 
-Chương trình được xây dựng với lớp StudentAnalyzer, đảm nhiệm các chức năng:
-- Đếm số học sinh giỏi (điểm ≥ 8.0)
-- Tính điểm trung bình từ các điểm hợp lệ
+---
 
-Quy tắc xử lý dữ liệu:
-- Điểm nhỏ hơn 0 hoặc lớn hơn 10 được xem là không hợp lệ
-- Dữ liệu không hợp lệ bị loại bỏ khỏi quá trình tính toán
+## 🧰 Công nghệ sử dụng
+- **Java**
+- **JUnit 5**
+- **Maven**
+- **Git & GitHub**
 
-Xây dựng các ca kiểm thử để kiểm tra:
-- Trường hợp dữ liệu hợp lệ
-- Trường hợp giá trị biên (0, 8.0, 10)
-- Trường hợp dữ liệu sai (điểm âm, điểm vượt giới hạn)
+---
 
-Dự án được quản lý bằng GitHub, sử dụng danh sách công việc để theo dõi tiến độ và nội dung thay đổi.
+## ⚙️ Yêu cầu môi trường
+- Java 11 trở lên
+- Apache Maven
+- IDE (IntelliJ IDEA / Eclipse / VS Code)
 
-Chạy kiểm thử:
+---
+
+## 📂 Cấu trúc dự án
+
+software_testing
+│── main/java
+│── test/java
+│── pom.xml
+│── README.md
 
 
-#### Cấu trúc thư mục
+## 🚀 Hướng dẫn cài đặt & chạy kiểm thử
 
-Thư mục `software_testing`
-
- - Thư mục `src`
-  
-    Tệp `StudentAnalyzer.java`
-    
-  - Thư mục `test`
-  
-    Tệp `StudentAnalyzerTest.java`
-    
-  - Tệp `README.md`
-
-README.md  
-Tài liệu mô tả mục tiêu, nội dung và cách sử dụng dự án  
-
-#### Yêu cầu môi trường
-
-- Máy tính cài đặt hệ điều hành Windows, Linux hoặc macOS
-- Java Development Kit phiên bản 8 trở lên
-- Maven để quản lý dự án và chạy kiểm thử
-- Trình soạn thảo mã nguồn hoặc môi trường phát triển Java phù hợp
-
-#### Kết quả đạt được
-
-- Hiểu rõ quy trình kiểm thử đơn vị trong phát triển phần mềm
-- Biết cách xây dựng ca kiểm thử cho nhiều loại dữ liệu khác nhau
-- Nâng cao khả năng phát hiện lỗi logic trong chương trình
-- Rèn luyện kỹ năng quản lý mã nguồn và làm việc với GitHub
+### 1. Clone repository
+```bash
+git clone https://github.com/QuangVinh060705/software_testing.git
+cd software_testing
