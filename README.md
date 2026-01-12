@@ -47,7 +47,7 @@ Mục tiêu của dự án là rèn luyện tư duy kiểm thử, kỹ năng vi�
 
 ---
 
-## 🧰 Công nghệ sử dụng
+#### 🧰 Công nghệ sử dụng
 - **Java**
 - **JUnit 5**
 - **Maven**
@@ -55,14 +55,14 @@ Mục tiêu của dự án là rèn luyện tư duy kiểm thử, kỹ năng vi�
 
 ---
 
-## ⚙️ Yêu cầu môi trường
+#### ⚙️ Yêu cầu môi trường
 - Java 11 trở lên
 - Apache Maven
 - IDE (IntelliJ IDEA / Eclipse / VS Code)
 
 ---
 
-## 📂 Cấu trúc dự án
+#### 📂 Cấu trúc dự án
 
 software_testing
 │── main/java
@@ -71,7 +71,7 @@ software_testing
 │── README.md
 
 
-## 🚀 Hướng dẫn cài đặt & chạy kiểm thử
+#### 🚀 Hướng dẫn cài đặt & chạy kiểm thử
 
 ### 1. Clone repository
 ```bash
