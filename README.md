@@ -6,7 +6,7 @@ Mục tiêu của dự án là rèn luyện tư duy kiểm thử, kỹ năng vi�
 
 ---
 
-## 🎯 Mục tiêu dự án
+## Mục tiêu dự án
 - Hiểu và áp dụng các nguyên tắc kiểm thử phần mềm
 - Thực hành đánh giá giao diện người dùng (UI Testing)
 - Viết Unit Test bằng JUnit 5 cho chương trình Java
@@ -14,10 +14,10 @@ Mục tiêu của dự án là rèn luyện tư duy kiểm thử, kỹ năng vi�
 
 ---
 
-## 📌 Nội dung chính
+## Nội dung chính
 
-### 1️⃣ Đánh giá giao diện người dùng  
-**📅 Ngày thực hiện: 05/01**
+### 1. Đánh giá giao diện người dùng  
+Ngày thực hiện: 05/01
 
 - Thực hành đánh giá giao diện người dùng thông qua website: https://cantunsee.space/
 - Phân tích các yếu tố về:
@@ -29,8 +29,8 @@ Mục tiêu của dự án là rèn luyện tư duy kiểm thử, kỹ năng vi�
 
 ---
 
-### 2️⃣ Thực hành Unit Test với JUnit 5  
-**📅 Ngày thực hiện: 08/01**
+### 2. Thực hành Unit Test với JUnit 5  
+Ngày thực hiện: 08/01
 
 - Xây dựng chương trình Java phân tích điểm số học sinh
 - Lớp chính: `StudentAnalyzer`
@@ -47,7 +47,7 @@ Mục tiêu của dự án là rèn luyện tư duy kiểm thử, kỹ năng vi�
 
 ---
 
-#### 🧰 Công nghệ sử dụng
+#### Công nghệ sử dụng
 - **Java**
 - **JUnit 5**
 - **Maven**
@@ -55,14 +55,14 @@ Mục tiêu của dự án là rèn luyện tư duy kiểm thử, kỹ năng vi�
 
 ---
 
-#### ⚙️ Yêu cầu môi trường
+#### Yêu cầu môi trường
 - Java 11 trở lên
 - Apache Maven
 - IDE (IntelliJ IDEA / Eclipse / VS Code)
 
 ---
 
-#### 📂 Cấu trúc dự án
+#### Cấu trúc dự án
 
 software_testing
 │── main/java
@@ -71,9 +71,11 @@ software_testing
 │── README.md
 
 
-#### 🚀 Hướng dẫn cài đặt & chạy kiểm thử
+---
 
-### 1. Clone repository
+#### Hướng dẫn cài đặt & chạy kiểm thử
+
+#### 1. Clone repository
 ```bash
 git clone https://github.com/QuangVinh060705/software_testing.git
 cd software_testing
