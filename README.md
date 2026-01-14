@@ -2,14 +2,14 @@
 
 Dự án thực hành **kiểm thử phần mềm (Software Testing)**, tập trung vào đánh giá giao diện người dùng và viết **Unit Test với JUnit 5** trong Java.
 
-Mục tiêu của dự án là rèn luyện tư duy kiểm thử, kỹ năng viết test case, sử dụng Maven và quản lý mã nguồn bằng Git/GitHub.
+Mục tiêu của dự án là rèn luyện tư duy kiểm thử, kỹ năng viết ca kiểm thử, sử dụng Maven và quản lý mã nguồn bằng Git/GitHub.
 
 ---
 
 ## Mục tiêu dự án
 - Hiểu và áp dụng các nguyên tắc kiểm thử phần mềm
-- Thực hành đánh giá giao diện người dùng (UI Testing)
-- Viết Unit Test bằng JUnit 5 cho chương trình Java
+- Thực hành đánh giá giao diện người dùng 
+- Viết kiểm thử trường hợp bằng JUnit 5 cho chương trình Java
 - Làm quen với Maven và quy trình làm việc với GitHub
 
 ---
@@ -23,7 +23,7 @@ Ngày thực hiện: 05/01
 - Phân tích các yếu tố về:
   - Bố cục giao diện
   - Màu sắc
-  - Khả năng sử dụng (usability)
+  - Khả năng sử dụng
 - Nhận diện các lỗi thiết kế UI thường gặp
 - So sánh giao diện tốt và chưa tốt theo góc nhìn người dùng thực tế
 
@@ -65,17 +65,20 @@ Ngày thực hiện: 08/01
 #### Cấu trúc dự án
 
 software_testing
-│── main/java
-│── test/java
-│── pom.xml
-│── README.md
 
+│── main/java
+
+│── test/java
+
+│── pom.xml
+
+│── README.md
 
 ---
 
 #### Hướng dẫn cài đặt & chạy kiểm thử
 
-#### 1. Clone repository
+#### 1. Kéo repository
 ```bash
 git clone https://github.com/QuangVinh060705/software_testing.git
 cd software_testing
